@@ -1,0 +1,315 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  line-height: 0.8;
+}
+
+.container {
+  width: 1410px;
+  margin: 0 auto;
+}
+
+/* ================ start navbar part ===================*/
+#navbar {
+  padding: 24px 0;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+#navbar .nav_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#navbar .nav_wrapper .logo {
+  width: 111px;
+  height: 60px;
+  overflow: hidden;
+}
+#navbar .nav_wrapper .logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#navbar .nav_wrapper .menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 48px;
+       column-gap: 48px;
+}
+#navbar .nav_wrapper .menu ul li a {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-transform: capitalize;
+  line-height: 140%;
+}
+#navbar .nav_wrapper .navbar_btn {
+  display: flex;
+  align-items: center;
+}
+#navbar .nav_wrapper .navbar_btn a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #FF5538;
+  text-transform: capitalize;
+  line-height: 140%;
+  padding: 14px 28px;
+  border-radius: 18px;
+  border: 1px solid #FF5538;
+  transition: all linear 0.3s;
+}
+#navbar .nav_wrapper .navbar_btn a:hover {
+  background-color: #FF5538;
+  color: white;
+}
+
+/* ================ end navbar part ===================*/
+/* ================ start banner part ===================*/
+#banner {
+  background-image: url(/images/banner_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 195px 0 295px 0;
+}
+#banner .banner_contant_wrapper {
+  margin: 0 auto;
+}
+#banner .banner_contant_wrapper .banner_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+#banner .banner_contant_wrapper .banner_link .banner_link_contant {
+  border: 1px solid #C4C4C4;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+#banner .banner_contant_wrapper .banner_link .banner_link_contant a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #C4C4C4;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+#banner .banner_contant_wrapper .banner_head {
+  margin-top: 30px;
+  margin: 0 auto;
+  width: 967px;
+  text-align: center;
+}
+#banner .banner_contant_wrapper .banner_head h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: white;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+#banner .banner_contant_wrapper .banner_pera {
+  width: 780px;
+  text-align: center;
+  margin: 0 auto;
+}
+#banner .banner_contant_wrapper .banner_pera p {
+  margin: 30px 0 50px 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: #C4C4C4;
+  text-transform: capitalize;
+  line-height: 140%;
+  margin-top: 30px;
+}
+#banner .banner_contant_wrapper form {
+  width: 638px;
+  margin: 0 auto;
+  position: relative;
+}
+#banner .banner_contant_wrapper form input {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 400;
+  color: #29313D;
+  outline: none;
+  padding: 29px 0 29px 30px;
+  border-radius: 20px;
+  text-transform: capitalize;
+  line-height: 140%;
+}
+#banner .banner_contant_wrapper form button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: #C4C4C4;
+  cursor: pointer;
+  padding: 30px 30px;
+  border: none;
+  background-color: #6A55EA;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* ================ end banner part ===================*/
+/* ================ start banner_two part ===================*/
+#banner_two {
+  padding: 445px 0 100px 0;
+  background-image: url(/images/meg2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top: -300px;
+}
+#banner_two .banner_two_wrapper {
+  display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 110px;
+       column-gap: 110px;
+}
+#banner_two .banner_two_wrapper .banner_two_image {
+  width: 210px;
+  height: 90px;
+  overflow: hidden;
+}
+#banner_two .banner_two_wrapper .banner_two_image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* ================ end banner_two part ===================*/
+/* ================ start service part ===================*/
+#service {
+  padding: 0 0 136px 0;
+}
+#service .service_content {
+  text-align: center;
+}
+#service .service_content h5 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #7968EF;
+  text-transform: capitalize;
+  line-height: 150%;
+  margin-bottom: 10px;
+}
+#service .service_content h2 {
+  margin: 0 auto;
+  width: 676px;
+  font-size: 48px;
+  font-weight: 600;
+  color: #29313D;
+  text-transform: capitalize;
+  line-height: 150%;
+}
+#service .service_content_wrappper {
+  display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 31px;
+       column-gap: 31px;
+  margin-top: 87px;
+}
+#service .service_content_wrappper .service_contant_box p {
+  width: 688px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #29313D;
+  text-transform: capitalize;
+  line-height: 140%;
+}
+#service .service_content_wrappper .service_contant_box .content_box_image {
+  width: 726px;
+  height: 403px;
+  overflow: hidden;
+  margin-top: 80px;
+}
+#service .service_content_wrappper .service_contant_box .content_box_image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#service .service_content_wrappper .service_list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 36px;
+}
+#service .service_content_wrappper .service_list .contant_group {
+  display: flex;
+  justify-content: left;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  padding: 36px 36px;
+  background: #F0EDFF;
+  border-radius: 20px;
+}
+#service .service_content_wrappper .service_list .contant_group .contant_logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #7968EF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#service .service_content_wrappper .service_list .contant_group .contant_logo a img {
+  width: 57px;
+  height: 61px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#service .service_content_wrappper .service_list .contant_group .contant_logo:nth-child(2) {
+  background: #F8A64C;
+}
+#service .service_content_wrappper .service_list .contant_group .contant_logo:nth-child(3) {
+  background: #63DE9D;
+}
+#service .service_content_wrappper .service_list .contant_group .content_item .contant_head {
+  width: 350px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #29313D;
+  text-transform: capitalize;
+  line-height: 140%;
+  margin-bottom: 12px;
+}
+#service .service_content_wrappper .service_list .contant_group .content_item .contant_pera {
+  width: 374px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #29313D;
+  text-transform: capitalize;
+  line-height: 140%;
+}
+#service .service_content_wrappper .service_list .contant_group:nth-child(2) {
+  background: #FEF6EC;
+}
+#service .service_content_wrappper .service_list .contant_group:nth-child(3) {
+  background: #E8FCF2;
+}
+
+/* ================ end service part ===================*//*# sourceMappingURL=style.css.map */
